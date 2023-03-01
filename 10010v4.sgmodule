@@ -1,5 +1,5 @@
 #!name=联通余量(v4)
-#!desc=定时查询 与 Panel 面板
+#!desc=自用版
 
 [General]
 force-http-engine-hosts = %APPEND% 10010v4.com
