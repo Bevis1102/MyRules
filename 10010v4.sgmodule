@@ -10,7 +10,7 @@ force-http-engine-hosts = %APPEND% 10010v4.com
 10010v4-request = type=http-request,pattern=^https?:\/\/10010v4\.com,script-path=https://github.com/ChinaTelecomOperators/ChinaUnicom/releases/download/Prerelease-Alpha/10010.js,requires-body=false,max-size=0,timeout=60
 
 # Panel
-10010v4-panel = type=generic,timeout=60,script-path=https://github.com/ChinaTelecomOperators/ChinaUnicom/releases/download/Prerelease-Alpha/10010.js,argument=icon=antenna.radiowaves.left.and.right&icon-color=#34C759
+10010v4-panel = type=generic,timeout=60,script-path=https://github.com/ChinaTelecomOperators/ChinaUnicom/releases/download/Prerelease-Alpha/10010.js,argument=icon=antenna.radiowaves.left.and.right.slash&icon-color=#34C759
 
 [MITM]
 hostname = %APPEND% 10010v4.com
