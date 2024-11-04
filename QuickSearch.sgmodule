@@ -84,12 +84,11 @@
 ^https:\/\/duckduckgo.com\/\?q=yh\+([^&]+).+ https://greasyfork.org/zh-CN/scripts?q=$1 302
 # by  xxx (必应)
 ^https:\/\/duckduckgo.com\/\?q=by\+([^&]+).+ https://www.bing.com/search?q=$1 302
-# xxx （无指令默认为 Google）
-^https:\/\/duckduckgo.com\/\?q=([^&]+).+ https://www.google.com/search?q=$1 302
 # am  xxx (Amazon)
 ^https:\/\/duckduckgo.com\/\?q=am\+([^&]+).+ https://www.amazon.com/s?k=$1 302
 # gr  xxx (Goodreads)
 ^https:\/\/duckduckgo.com\/\?q=gr\+([^&]+).+ https://www.goodreads.com/search?q=$1 302
-
+# xxx （无指令默认为 Google）
+^https:\/\/duckduckgo.com\/\?q=([^&]+).+ https://www.google.com/search?q=$1 302
 [MITM]
 hostname = %APPEND% duckduckgo.com
