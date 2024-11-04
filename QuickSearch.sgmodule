@@ -88,9 +88,9 @@
 ^https:\/\/duckduckgo.com\/\?q=([^&]+).+ https://www.google.com/search?q=$1 302
 
 #>>>>>>>>>>>>>>>>>>>>>>>自用
-# am    xxx (Amazon)
+# am  xxx (Amazon)
 ^https:\/\/duckduckgo.com\/\?q=am\+([^&]+).+ https://www.amazon.com/s?k=$1 302
-# gr    xxx (Goodreads)
+# gr  xxx (Goodreads)
 ^https:\/\/duckduckgo.com\/\?q=gr\+([^&]+).+ https://www.goodreads.com/search?q=$1 302
 
 [MITM]
