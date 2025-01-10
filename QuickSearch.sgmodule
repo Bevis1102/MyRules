@@ -12,6 +12,8 @@
 ^https:\/\/duckduckgo.com\/\?q=trc\+([^&]+).+ https://translate.google.com/#view=home&op=translate&sl=auto&tl=zh-CN&text=$1 302
 # tre xxx (Google 译至英)
 ^https:\/\/duckduckgo.com\/\?q=tre\+([^&]+).+ https://translate.google.com/#view=home&op=translate&sl=auto&tl=en&text=$1 302
+# mw xxx (merriam-webster)
+^https?://.*duckduckgo.com/\?q=mw\+([^&]+) https://www.merriam-webster.com/dictionary/$1 302
 
 #>>>>>>>>>>>>>>>>>>>>>>>社区
 # tt    xxx (头条)
